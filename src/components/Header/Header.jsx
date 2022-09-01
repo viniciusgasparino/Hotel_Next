@@ -1,6 +1,7 @@
 import styled from "styled-components"
 import StyledTitle from "../Title/Title"
 import StyledParagrafo from "../Paragrafo/Paragrafo"
+import Button from "../Button/Button"
 
 
 const StyledHeader = styled.header`
@@ -14,13 +15,14 @@ const StyledHeader = styled.header`
   align-items:center;
 `;
 
+
 export default function Header(){
   return(
     <StyledHeader img={"praia.jpg"}>
       <StyledTitle color={"white"}>Hotel next</StyledTitle>
       <StyledParagrafo color={"white"}>O seu paraíso na terra</StyledParagrafo>
       <a href="#" target="_blank">
-        <button>O seu paraíso na terra</button>
+        <Button>O seu paraíso na terra</Button>
       </a>
     </StyledHeader>
   )
