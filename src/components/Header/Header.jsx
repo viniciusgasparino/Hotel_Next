@@ -15,6 +15,16 @@ const StyledHeader = styled.div`
 
 export default function Header(){
   return(
-    <StyledHeader/>
+    <StyledHeader>
+      <h1>Hotel next</h1>
+      <p>O seu paraíso na terra</p>
+      <a href="#" target="_blank">
+        <button>O seu paraíso na terra</button>
+      </a>
+    </StyledHeader>
   )
+}
+
+Header.defaultProps = {
+  image: "../public/praia.jpg"
 }
