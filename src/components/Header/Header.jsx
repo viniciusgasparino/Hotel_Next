@@ -1,5 +1,6 @@
 import styled from "styled-components"
-import StyledTitle from "../Title/Title";
+import StyledTitle from "../Title/Title"
+import StyledParagrafo from "../Paragrafo/Paragrafo"
 
 
 const StyledHeader = styled.header`
@@ -17,7 +18,7 @@ export default function Header(){
   return(
     <StyledHeader img={"praia.jpg"}>
       <StyledTitle color={"white"}>Hotel next</StyledTitle>
-      <p>O seu paraíso na terra</p>
+      <StyledParagrafo color={"white"}>O seu paraíso na terra</StyledParagrafo>
       <a href="#" target="_blank">
         <button>O seu paraíso na terra</button>
       </a>
