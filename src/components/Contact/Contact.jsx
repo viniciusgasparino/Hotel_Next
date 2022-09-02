@@ -25,6 +25,8 @@ function Contact(){
         <Content>
           <Subtitle>Alguma dúvida</Subtitle>
           <StyledH2>Entre em contato</StyledH2>
+          <Paragrafo color={"black"}>(27)99999-99999</Paragrafo>
+          <Paragrafo color={"black"}>Este hotel</Paragrafo>
         </Content>  
       </StyledW50>
       <StyledW50>
