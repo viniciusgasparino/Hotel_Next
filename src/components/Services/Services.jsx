@@ -1,5 +1,6 @@
 import styled from "styled-components"
 import Subtitle from "../Subtitle/Subtitle"
+import Cards from "../Cards/Cards"
 
 const StyledServices = styled.div`
   padding: 40px 0;
@@ -25,7 +26,9 @@ function Services(){
       <StyledContainer>
       <Subtitle size={"30px"}>Serviços</Subtitle>
       <StyledContent>
-        
+        <Cards img={"imagem-carro.jpg"}/>
+        <Cards img={"imagem-quarto.jpg"}/>
+        <Cards img={"imagem-vista.jpg"}/>
       </StyledContent>
       </StyledContainer>
     </StyledServices>
