@@ -16,6 +16,10 @@ const StyledContent = styled.div`
     margin-top: 30px;
     justify-content: space-between;
     gap: 20px;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
 `;
 
 
@@ -25,11 +29,11 @@ function Services(){
     <StyledServices>
       <StyledContainer>
       <Subtitle size={"30px"}>Serviços</Subtitle>
-      <StyledContent>
-        <Cards img={"imagem-carro.jpg"}/>
-        <Cards img={"imagem-quarto.jpg"}/>
-        <Cards img={"imagem-vista.jpg"}/>
-      </StyledContent>
+        <StyledContent>
+          <Cards img={"imagem-carro.jpg"}/>
+          <Cards img={"imagem-quarto.jpg"}/>
+          <Cards img={"imagem-vista.jpg"}/>
+        </StyledContent>
       </StyledContainer>
     </StyledServices>
   )

@@ -7,6 +7,11 @@ import Imagem from "../Imagem/Imagem"
 const StyledContact = styled.div`
   display: flex;
   font-size: 20pt;
+
+  @media (max-width: 768px){
+    flex-direction: column;
+  }
+
 `;
 
 const StyledW50 = styled.div`
