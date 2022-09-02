@@ -41,7 +41,7 @@ function Section(){
       </StyledW50>
       <StyledW50>
         <Content>
-          <Subtitle>Aqui vai um titulo</Subtitle>
+          <Subtitle size={"40px"}>Aqui vai um titulo</Subtitle>
           <StyledText>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
             Morbi sed mauris lacus. Donec metus nisi, accumsan ut nulla sit amet, 
             molestie cursus nisl.Integer enim augue, sollicitudin vel tristique eget, 
