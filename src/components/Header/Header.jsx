@@ -22,7 +22,9 @@ export default function Header(){
       <StyledTitle color={"white"}>Hotel next</StyledTitle>
       <StyledParagrafo color={"white"}>O seu paraíso na terra</StyledParagrafo>
       <a href="#" target="_blank">
-        <Button>O seu paraíso na terra</Button>
+        <Button>
+          O seu paraíso na terra
+        </Button>
       </a>
     </StyledHeader>
   )
