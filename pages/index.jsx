@@ -6,10 +6,7 @@ function HomePage(){
   return(
     <>
       <Header/> 
-      <Section
-        flex={"flex"}
-        width={"100%"}
-      /> 
+      <Section/> 
     </>
        
   )
